@@ -3,7 +3,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class Solution1 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -23,10 +23,9 @@ public class Solution {
 
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        int[] item = new Solution().twoSum(nums, target);
+        int[] item = new Solution1().twoSum(nums, target);
         for (int s : item) {
             System.out.println(s);
         }
     }
 }
-
